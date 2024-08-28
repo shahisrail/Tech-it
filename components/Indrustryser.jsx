@@ -1,6 +1,6 @@
-import ECommerce from "@/public/ecommerce.png";
-import Education from "@/public/Education.png";
 import healthcare from "@/public/healthcare.png";
+import ecommerce from "@/public/ecommerce.png";
+import Education from "@/public/Education.png";
 import Hospitality from "@/public/Hospitality.png";
 import more from "@/public/more.png";
 import Pharmacy from "@/public/Pharmacy.png";
@@ -26,12 +26,8 @@ const Indrustryser = () => {
 
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
-      <Image 
-        src={ECommerce}
-        placeholder="blur" 
-        alt="E-Commerce" 
-
-      />
+    
+        <Image  src={ecommerce}   alt="E-Commerce"    placeholder="blur"  />
     </div>
     <div className="text-lg font-semibold">E-Commerce</div>
   </div>
