@@ -52,7 +52,7 @@ const UserDemand = () => {
         <div className=" space-y-4 rounded-lg bg-white p-6 shadow-lg py-5 px-5 hover:bg-[#D8F3D3]   dark:bg-[#18181B]">
           <div className="grid gap-2">
             <h1 className="text-lg font-semibold  text-center">
-              Custom Software Development
+              Custom Website Development
             </h1>
 
             <Link href={"/contactUs"}>
