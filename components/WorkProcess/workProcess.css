@@ -1,0 +1,29 @@
+@keyframes slide1 {
+    0%, 100% {
+        transform: translateX(0);
+        z-index: 20;
+    }
+    50% {
+        transform: translateX(-50px) scale(0.9); /* Adjust translateX value as needed */
+        z-index: 10;
+    }
+}
+
+@keyframes slide2 {
+    0%, 100% {
+        transform: translateX(0);
+        z-index: 10;
+    }
+    50% {
+        transform: translateX(50px) scale(1.1); /* Adjust translateX value as needed */
+        z-index: 20;
+    }
+}
+
+.animate-slide1 {
+    animation: slide1 10s infinite ;
+}
+
+.animate-slide2 {
+    animation: slide2 10s infinite ;
+}
