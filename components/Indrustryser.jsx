@@ -1,12 +1,7 @@
 import Image from "next/image";
 import healthcare from "@/public/healthcare.png"
 import ecommerce from "@/public/ecommerce.png";
-import Education from "@/public/Education.png";
-import RealEstate from "@/public/real-estate.png";
-import Hospitality from "@/public/Hospitality.png";
-import Pharmacy from "@/public/Pharmacy.png";
-import UIUx from "@/public/Ui-Ux.png";
-import more from "@/public/more.png";
+
 const Indrustryser = () => {
   return (
     <div>
