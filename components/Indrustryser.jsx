@@ -1,14 +1,12 @@
-import Image from "next/image";
+import ECommerce from "@/public/ecommerce.png";
+import Education from "@/public/Education.png";
 import healthcare from "@/public/healthcare.png";
-// import vission from "@/assets/workProcess/vission.jpg";
-// import Healthcare from "../assets/indeustry/healthcare.png";
-// import ECommerce from "@/assets/indeustry/ecommerce.png";
-// import Education from "@/assets/indeustry/Education.png";
-// import RealEstate from "@/assets/indeustry/real-estate.png";
-// import Hospitality from "@/assets/indeustry/Hospitality.png";
-// import Pharmacy from "@/assets/indeustry/Pharmacy.png";
-// import UIUx from "@/assets/indeustry/Ui-Ux.png";
-// import more from "@/assets/indeustry/more.png";
+import Hospitality from "@/public/Hospitality.png";
+import more from "@/public/more.png";
+import Pharmacy from "@/public/Pharmacy.png";
+import RealEstate from "@/public/real-estate.png";
+import UIUx from "@/public/Ui-Ux.png";
+import Image from "next/image";
 const Indrustryser = () => {
   return (
     <div>
@@ -29,11 +27,10 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-        src="../assets/indeustry/ecommerce.png" 
+        src={ECommerce}
         placeholder="blur" 
         alt="E-Commerce" 
-        width={200} 
-        height={200} 
+
       />
     </div>
     <div className="text-lg font-semibold">E-Commerce</div>
@@ -42,11 +39,10 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-       src="../assets/indeustry/Education.png" 
+       src={Education}
         placeholder="blur" 
         alt="Education" 
-        width={200} 
-        height={200} 
+       
       />
     </div>
     <div className="text-lg font-semibold">Education</div>
@@ -55,11 +51,10 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-        src="../assets/indeustry/real-estate.png" 
+        src={RealEstate}
         placeholder="blur" 
         alt="Real-Estate" 
-        width={200} 
-        height={200} 
+      
       />
     </div>
     <div className="text-lg font-semibold">Real-Estate</div>
@@ -68,11 +63,10 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-         src="../assets/indeustry/Hospitality.png" 
+         src={Hospitality}
         placeholder="blur" 
         alt="Hospitality" 
-        width={200} 
-        height={200} 
+       
       />
     </div>
     <div className="text-lg font-semibold">Hospitality</div>
@@ -81,11 +75,10 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-      src="../assets/indeustry/Pharmacy.png" 
+      src={Pharmacy}
         placeholder="blur" 
         alt="Pharmacy" 
-        width={200} 
-        height={200} 
+      
       />
     </div>
     <div className="text-lg font-semibold">Pharmacy</div>
@@ -94,11 +87,10 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-        src="../assets/indeustry/Ui-Ux.png" 
+        src={UIUx} 
         placeholder="blur" 
         alt="UI/UX" 
-        width={200} 
-        height={200} 
+      
       />
     </div>
     <div className="text-lg font-semibold">UI/Ux</div>
@@ -107,11 +99,10 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-   src="../assets/indeustry/more.png" 
+   src={more}
         placeholder="blur" 
         alt="Many more" 
-        width={200} 
-        height={200} 
+      
       />
     </div>
     <div className="text-lg font-semibold">Many more</div>
