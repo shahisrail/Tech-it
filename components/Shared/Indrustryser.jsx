@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Healthcare from "@/public/indeustry/Healthcare.png";
-import ECommerce from "@/public/indeustry/ecommerce.png";
-import Education from "@/public/indeustry/Education.png";
-import RealEstate from "@/public/indeustry/real-estate.png";
-import Hospitality from "@/public/indeustry/Hospitality.png";
-import Pharmacy from "@/public/indeustry/Pharmacy.png";
-import UIUx from "@/public/indeustry/Ui-Ux.png";
-import more from "@/public/indeustry/more.png";
+import Healthcare from "@/assets/indeustry/Healthcare.png";
+import ECommerce from "@/assets/indeustry/ecommerce.png";
+import Education from "@/assets/indeustry/Education.png";
+import RealEstate from "@/assets/indeustry/real-estate.png";
+import Hospitality from "@/assets/indeustry/Hospitality.png";
+import Pharmacy from "@/assets/indeustry/Pharmacy.png";
+import UIUx from "@/assets/indeustry/Ui-Ux.png";
+import more from "@/assets/indeustry/more.png";
 const Indrustryser = () => {
   return (
     <>
