@@ -2,8 +2,8 @@ import About from "@/components/about/about";
 import Banner from "@/components/Banner";
 import ClientsReviews from "@/components/ClientsReviews";
 import OurTeam from "@/components/OurTeam/OurTeam";
-import Indrustryser from "../Shared/Indrustryser";
-import UserDemand from "../Shared/UserDemand";
+import Indrustryser from "../Indrustryser";
+import UserDemand from "../UserDemand";
 const Home = () => {
   return (
     <main className="  bg-[#F4FAF3]">

@@ -5,11 +5,11 @@ import laravelPhp from "@/assets/Services/laravelPhp.png";
 import mern from "@/assets/Services/mern.png";
 import wordpress from "@/assets/Services/wordpress.png";
 import ServiceBanner from "@/components/Service/ServiceBanner";
-import Image from "next/image";
 import webflow from "@/public/webflow.png";
+import Image from "next/image";
 
+import Indrustryser from "@/components/Indrustryser";
 import seo from "@/public/SEO-PNG-Images-removebg-preview.png";
-import Indrustryser from "@/components/Shared/Indrustryser";
 
 
 function page() {
@@ -81,7 +81,7 @@ function page() {
             </div>
             <div className="shadow-md p-4 rounded-md"  >
               <div className="flex justify-center">
-                <Image placeholder="blur" src={seo} alt="custom web" />
+                <Image  src={seo} alt="custom web" placeholder="blur" />
               </div>
               <h3 className="mt-4 md:text-xl font-bold bg-white shadow-md text-center py-2 rounded-md cursor-pointer hover:bg-green-500 hover:text-white transition-all ease-in-out duration-200">
               Seo
@@ -91,7 +91,7 @@ function page() {
         </div>
       </div>{" "}
   <div className="max-w-screen-xl mx-auto">
-  {/* <Indrustryser/> */}
+  <Indrustryser/>
   </div>
     </div>
   );
