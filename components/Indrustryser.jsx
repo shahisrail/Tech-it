@@ -1,4 +1,5 @@
 import Image from "next/image";
+import vission from "@/assets/workProcess/vission.jpg";
 import Healthcare from "../assets/indeustry/healthcare.png";
 import ECommerce from "@/assets/indeustry/ecommerce.png";
 import Education from "@/assets/indeustry/Education.png";
@@ -19,7 +20,7 @@ const Indrustryser = () => {
       <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-2">
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={Healthcare} alt="About Tech It" placeholder="blur" />
+            <Image src={vission} alt="About Tech It" placeholder="blur" />
           </div>
           <div className="text-lg font-semibold">Healthcare</div>
         </div>
