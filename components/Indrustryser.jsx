@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Website from "@/public/website-development.png";
+import Website from "@/public/healthcare.png";
 // import vission from "@/assets/workProcess/vission.jpg";
 // import Healthcare from "../assets/indeustry/healthcare.png";
 // import ECommerce from "@/assets/indeustry/ecommerce.png";
