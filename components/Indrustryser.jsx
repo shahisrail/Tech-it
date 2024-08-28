@@ -2,6 +2,11 @@ import Image from "next/image";
 import healthcare from "@/public/healthcare.png"
 import ecommerce from "@/public/ecommerce.png";
 import education from "@/public/education.png";
+import realestate from "@/public/realestate.png";
+import hospitality from "@/public/hospitality.png";
+import pharmacy from "@/public/pharmacy.png";
+import uiux from "@/public/uiux.png";
+import more from "@/public/more.png";
 
 const Indrustryser = () => {
   return (
@@ -31,27 +36,27 @@ const Indrustryser = () => {
           </div>
           <div className="text-lg font-semibold">Education</div>
         </div>
-        {/* <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
+        <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={RealEstate} placeholder="blur" alt="About Tech It" />
+            <Image src={realestate} placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Real-Estate</div>
         </div>
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={Hospitality} placeholder="blur" alt="About Tech It" />
+            <Image src={hospitality} placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Hospitality</div>
         </div>
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={Pharmacy} placeholder="blur" alt="About Tech It" />
+            <Image src={pharmacy} placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Pharmacy</div>
         </div>
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={UIUx} placeholder="blur" alt="About Tech It" />
+            <Image src={uiux} placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">UI/Ux</div>
         </div>
@@ -60,7 +65,7 @@ const Indrustryser = () => {
             <Image src={more} placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Many more</div>
-        </div> */}
+        </div>
       </div>
 
     </div>
