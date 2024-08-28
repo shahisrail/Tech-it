@@ -3,13 +3,13 @@
 
 import laravelPhp from "@/assets/Services/laravelPhp.png";
 import mern from "@/assets/Services/mern.png";
-import windows from "@/assets/Services/windows.png";
 import wordpress from "@/assets/Services/wordpress.png";
 import ServiceBanner from "@/components/Service/ServiceBanner";
 import Image from "next/image";
 import webflow from "@/public/webflow.png";
-import shopify from "@/public/shopify.png";
+
 import seo from "@/public/SEO-PNG-Images-removebg-preview.png";
+import Indrustryser from "@/components/Shared/Indrustryser";
 
 
 function page() {
@@ -91,7 +91,7 @@ function page() {
         </div>
       </div>{" "}
   <div className="max-w-screen-xl mx-auto">
-  {/* <Indrustryser/> */}
+  <Indrustryser/>
   </div>
     </div>
   );

@@ -9,7 +9,7 @@ import UIUx from "@/assets/indeustry/Ui-Ux.png";
 import more from "@/assets/indeustry/more.png";
 const Indrustryser = () => {
   return (
-    <>
+    <div>
       <div className="text-center my-5">
         <h2 className="text-green-500  text-2xl md:text-4xl font-bold">
           Industry We Serve
@@ -78,7 +78,7 @@ const Indrustryser = () => {
 
         
       </div>
-    </>
+    </div>
   );
 };
 
