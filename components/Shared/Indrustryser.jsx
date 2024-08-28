@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Healthcare from "@/public/Healthcare.png";
-import ECommerce from "@/public/ecommerce.png";
-import Education from "@/public/Education.png";
-import RealEstate from "@/public/real-estate.png";
-import Hospitality from "@/public/Hospitality.png";
-import Pharmacy from "@/public/Pharmacy.png";
-import UIUx from "@/public/Ui-Ux.png";
-import more from "@/public/more.png";
+import healthcareImg from '/public/healthcare.png';
+import ECommerce from "/public/ecommerce.png";
+import Education from "/public/Education.png";
+import RealEstate from "/public/real-estate.png";
+import Hospitality from "/public/Hospitality.png";
+import Pharmacy from "/public/Pharmacy.png";
+import UIUx from "/public/Ui-Ux.png";
+import more from "/public/more.png";
 const Indrustryser = () => {
   return (
     <>
@@ -19,7 +19,7 @@ const Indrustryser = () => {
       <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-2">
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={Healthcare} placeholder="blur" alt="About Tech It" />
+            <Image src={healthcareImg} placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Healthcare</div>
         </div>
