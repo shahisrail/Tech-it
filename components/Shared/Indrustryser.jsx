@@ -19,49 +19,46 @@ const Indrustryser = () => {
       <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-2">
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={healthcareImg} placeholder="blur" alt="About Tech It" />
+            <Image src="/public/healthcare.png" placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Healthcare</div>
         </div>
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={ECommerce} placeholder="blur" alt="About Tech It" />
+            <Image src="/public/ecommerce.png" placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">E-Commerce</div>
         </div>
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={Education} placeholder="blur" alt="About Tech It" />
+            <Image src="/public/Education.png" placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Education
           </div>
         </div>
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={RealEstate} placeholder="blur" alt="About Tech It" />
+            <Image src="/public/real-estate" placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Real-Estate</div>
         </div>
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={Hospitality} placeholder="blur" alt="About Tech It" />
+            <Image src="/public/Hospitality.png" placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Hospitality
           </div>
         </div>
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={Pharmacy
-} placeholder="blur" alt="About Tech It" />
+            <Image src="/public/Pharmacy.png" placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Pharmacy
           </div>
         </div>
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={UIUx
-
-} placeholder="blur" alt="About Tech It" />
+            <Image src="/public/Ui-Ux.png" placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">UI/Ux
 
@@ -69,8 +66,7 @@ const Indrustryser = () => {
         </div>
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
-            <Image src={more
-} placeholder="blur" alt="About Tech It" />
+            <Image src="/public/more.png" placeholder="blur" alt="About Tech It" />
           </div>
           <div className="text-lg font-semibold">Many more
           </div>
