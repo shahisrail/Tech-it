@@ -1,12 +1,12 @@
-import healthcare from "@/public/healthcare.png";
+import Image from "next/image";
+import healthcare from "@/public/healthcare.png"
 import ecommerce from "@/public/ecommerce.png";
 import Education from "@/public/Education.png";
-import Hospitality from "@/public/Hospitality.png";
-import more from "@/public/more.png";
-import Pharmacy from "@/public/Pharmacy.png";
 import RealEstate from "@/public/real-estate.png";
+import Hospitality from "@/public/Hospitality.png";
+import Pharmacy from "@/public/Pharmacy.png";
 import UIUx from "@/public/Ui-Ux.png";
-import Image from "next/image";
+import more from "@/public/more.png";
 const Indrustryser = () => {
   return (
     <div>
@@ -26,8 +26,12 @@ const Indrustryser = () => {
 
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
-    
-        <Image  src={ecommerce}   alt="E-Commerce"    placeholder="blur"  />
+      <Image 
+        src={ecommerce}
+        placeholder="blur" 
+        alt="E-Commerce" 
+
+      />
     </div>
     <div className="text-lg font-semibold">E-Commerce</div>
   </div>
@@ -35,10 +39,11 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-       src={Education}
+       src="../assets/indeustry/Education.png" 
         placeholder="blur" 
         alt="Education" 
-       
+        width={200} 
+        height={200} 
       />
     </div>
     <div className="text-lg font-semibold">Education</div>
@@ -47,10 +52,11 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-        src={RealEstate}
+        src="../assets/indeustry/real-estate.png" 
         placeholder="blur" 
         alt="Real-Estate" 
-      
+        width={200} 
+        height={200} 
       />
     </div>
     <div className="text-lg font-semibold">Real-Estate</div>
@@ -59,10 +65,11 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-         src={Hospitality}
+         src="../assets/indeustry/Hospitality.png" 
         placeholder="blur" 
         alt="Hospitality" 
-       
+        width={200} 
+        height={200} 
       />
     </div>
     <div className="text-lg font-semibold">Hospitality</div>
@@ -71,10 +78,11 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-      src={Pharmacy}
+      src="../assets/indeustry/Pharmacy.png" 
         placeholder="blur" 
         alt="Pharmacy" 
-      
+        width={200} 
+        height={200} 
       />
     </div>
     <div className="text-lg font-semibold">Pharmacy</div>
@@ -83,10 +91,11 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-        src={UIUx} 
+        src="../assets/indeustry/Ui-Ux.png" 
         placeholder="blur" 
         alt="UI/UX" 
-      
+        width={200} 
+        height={200} 
       />
     </div>
     <div className="text-lg font-semibold">UI/Ux</div>
@@ -95,10 +104,11 @@ const Indrustryser = () => {
   <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
     <div className="flex justify-center">
       <Image 
-   src={more}
+   src="../assets/indeustry/more.png" 
         placeholder="blur" 
         alt="Many more" 
-      
+        width={200} 
+        height={200} 
       />
     </div>
     <div className="text-lg font-semibold">Many more</div>
