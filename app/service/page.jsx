@@ -10,7 +10,7 @@ import Image from "next/image";
 import webflow from "@/public/webflow.png";
 import shopify from "@/public/shopify.png";
 import seo from "@/public/SEO-PNG-Images-removebg-preview.png";
-import Indrustryser from "@/components/Shared/Indrustryser";
+
 
 function page() {
   return (
