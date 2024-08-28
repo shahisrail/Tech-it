@@ -91,7 +91,7 @@ function page() {
         </div>
       </div>{" "}
   <div className="max-w-screen-xl mx-auto">
-  <Indrustryser/>
+  {/* <Indrustryser/> */}
   </div>
     </div>
   );
