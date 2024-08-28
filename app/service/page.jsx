@@ -8,7 +8,7 @@ import ServiceBanner from "@/components/Service/ServiceBanner";
 import webflow from "@/public/webflow.png";
 import Image from "next/image";
 
-import Indrustryser from "@/components/Indrustryser";
+// import Indrustryser from "@/components/Indrustryser";
 import seo from "@/public/SEO-PNG-Images-removebg-preview.png";
 
 
@@ -91,7 +91,7 @@ function page() {
         </div>
       </div>{" "}
   <div className="max-w-screen-xl mx-auto">
-  <Indrustryser/>
+  {/* <Indrustryser/> */}
   </div>
     </div>
   );

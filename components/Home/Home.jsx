@@ -2,7 +2,7 @@ import About from "@/components/about/about";
 import Banner from "@/components/Banner";
 import ClientsReviews from "@/components/ClientsReviews";
 import OurTeam from "@/components/OurTeam/OurTeam";
-import Indrustryser from "../Indrustryser";
+// import Indrustryser from "../Indrustryser";
 import UserDemand from "../UserDemand";
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <div className="max-w-screen-xl mx-auto p-3 md:p-0">
         <About></About>
         {/* <OurSolutoins /> */}
-        <Indrustryser/>
+        {/* <Indrustryser/> */}
         <UserDemand/>
         <OurTeam />
         <ClientsReviews />
