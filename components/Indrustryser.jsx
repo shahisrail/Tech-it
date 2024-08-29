@@ -12,12 +12,12 @@ const Indrustryser = () => {
   return (
     <div>
       <div className="text-center my-5">
-        <h2 className="text-green-500  text-2xl md:text-4xl font-bold">
+        <h2 className="text-[#000000ba]  text-2xl md:text-4xl font-bold">
           Industry We Serve
         </h2>
         <p>Bridge Your Business with the Virtual World</p>
       </div>
-      <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-2">
+      <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-2 pt-5">
         <div className="space-y-4 text-center rounded-lg bg-white p-6 shadow-lg dark:bg-[#18181B]">
           <div className="flex justify-center">
             <Image src={healthcare} alt="About Tech It" placeholder="blur" />

@@ -69,8 +69,8 @@ export const NavBar = () => {
                         <span
                             className={`mt-[2px] h-[3px] w-[0px] rounded-full transition-all duration-300 group-hover:w-full ${
                                 pathname === "/"
-                                    ? "bg-sky-500 w-full"
-                                    : "bg-sky-500"
+                                    ? "bg-[#468420] w-full"
+                                    : "bg-[#468420]"
                             }`}
                         ></span>
                     </li>
@@ -87,8 +87,8 @@ export const NavBar = () => {
                         <span
                             className={`mt-[2px] h-[3px] w-[0px] rounded-full transition-all duration-300 group-hover:w-full ${
                                 pathname === "/service"
-                                    ? "bg-sky-500 w-full"
-                                    : "bg-sky-500"
+                                    ? "bg-[#468420] w-full"
+                                    : "bg-[#468420]"
                             }`}
                         ></span>
                     </li>
@@ -105,8 +105,8 @@ export const NavBar = () => {
                         <span
                             className={`mt-[2px] h-[3px] w-[0px] rounded-full transition-all duration-300 group-hover:w-full ${
                                 pathname === "/workprocess"
-                                    ? "bg-sky-500 w-full"
-                                    : "bg-sky-500"
+                                    ? "bg-[#468420] w-full"
+                                    : "bg-[#468420]"
                             }`}
                         ></span>
                     </li>
@@ -122,8 +122,8 @@ export const NavBar = () => {
                         <span
                             className={`mt-[2px] h-[3px] w-[0px] rounded-full transition-all duration-300 group-hover:w-full ${
                                 pathname === "/contactUs"
-                                    ? "bg-sky-500 w-full"
-                                    : "bg-sky-500"
+                                    ? "bg-[#468420] w-full"
+                                    : "bg-[#468420]"
                             }`}
                         ></span>
                     </li>
@@ -152,20 +152,20 @@ export const NavBar = () => {
                     </svg>
                     {dropDownState && (
                         <ul className=" z-10  gap-2  bg-[#393E46]  absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
-                            <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-sky-600 ">
+                            <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-[#468420] ">
                             <Link
                             className={` ${
                                 pathname === "/contactUs" ? "active" : ""
                             }`}
                             href={"/"}
                         >
-                            <h2> Home</h2>
+                            <h2> Home 2</h2>
                         </Link>
                         <span
                             className={`mt-[2px] h-[3px] w-[0px] rounded-full transition-all duration-300 group-hover:w-full ${
                                 pathname === "/contactUs"
-                                    ? "bg-sky-500 w-full"
-                                    : "bg-sky-500"
+                                    ? "bg-sky-[#468420] w-full"
+                                    : "bg-sky-[#468420]"
                             }`}
                         ></span>
                             </li>
@@ -182,8 +182,8 @@ export const NavBar = () => {
                         <span
                             className={`mt-[2px] h-[3px] w-[0px] rounded-full transition-all duration-300 group-hover:w-full ${
                                 pathname === "/service"
-                                    ? "bg-sky-500 w-full"
-                                    : "bg-sky-500"
+                                    ? "bg-[#468420] w-full"
+                                    : "bg-[#468420]"
                             }`}
                         ></span>
                             </li>
@@ -209,8 +209,8 @@ export const NavBar = () => {
                         <span
                             className={`mt-[2px] h-[3px] w-[0px] rounded-full transition-all duration-300 group-hover:w-full ${
                                 pathname === "/contactUs"
-                                    ? "bg-sky-500 w-full"
-                                    : "bg-sky-500"
+                                    ? "bg-[#468420] w-full"
+                                    : "bg-[#468420]"
                             }`}
                         ></span>
                             </li>

@@ -9,8 +9,8 @@ const UserDemand = () => {
     <>
 
     
-      <div className=" text-center my-10 ">
-        <h1 className="text-green-500  text-2xl md:text-4xl font-bold">
+      <div className=" text-center mt-24 mb-10">
+        <h1 className="text-[#000000ba]  text-2xl md:text-4xl font-bold">
           {" "}
           Share Your Demand to Design Any Customized Website
         </h1>
@@ -56,7 +56,7 @@ const UserDemand = () => {
             </h1>
 
             <Link href={"/contactUs"}>
-              <button className="btn btn-success bg-[#37a001] border-[#37a001] py-3 px-4 text-[#fff] animate-text ">
+              <button className="btn btn-success bg-[#468420] border-[#468420] py-3 px-4 text-[#fff] animate-text ">
                 <h2> Submit Request</h2>
               </button>
             </Link>

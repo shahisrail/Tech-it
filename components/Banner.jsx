@@ -56,7 +56,7 @@ export default function Banner() {
                                 websites tailored to your business goals.
                             </p>
                             <Link href={"/contactUs"}>
-                                <button className="bg-green-600 text-white px-4 py-3 rounded-md shadow-md flex gap-2 text-sm items-center font-semibold">
+                                <button className="bg-[#468420] text-white px-4 py-3 rounded-md shadow-md flex gap-2 text-sm items-center font-semibold">
                                     <ContactIcon /> Contacts
                                 </button>
                             </Link>
@@ -80,7 +80,7 @@ export default function Banner() {
                                 operations.
                             </p>
                             <Link href={"/contactUs"}>
-                                <button className="bg-green-600 text-white px-4 py-3 rounded-md shadow-md flex gap-2 text-sm items-center font-semibold">
+                                <button className="bg-[#468420] text-white px-4 py-3 rounded-md shadow-md flex gap-2 text-sm items-center font-semibold">
                                     <ContactIcon /> Contacts
                                 </button>
                             </Link>
@@ -103,7 +103,7 @@ export default function Banner() {
                                 visibility, more leads, and more revenue.
                             </p>
                             <Link href={"/contactUs"}>
-                                <button className="bg-green-600 text-white px-4 py-3 rounded-md shadow-md flex gap-2 text-sm items-center font-semibold">
+                                <button className="bg-[#468420] text-white px-4 py-3 rounded-md shadow-md flex gap-2 text-sm items-center font-semibold">
                                     <ContactIcon /> Contacts
                                 </button>
                             </Link>
