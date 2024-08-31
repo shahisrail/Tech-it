@@ -16,16 +16,16 @@ const About = () => {
 
       <div className="md:flex flex-row justify-center items-center md:gap-10 md:my-24" id="about-us">
         <div className="text-center md:text-start">
-          <h2 className="text-green-500  text-xl md:text-4xl font-bold  animate-text">
+          <h2 className="text-[#000000ba]  text-xl md:text-4xl font-bold  animate-text">
             About Tech It
           </h2>
-          <p className="md:mt-10 mt-2 text-center md:text-start text-sm md:text-2xl font-medium py-3 animate-text ">
+          <p className="md:mt-5 mt-2 text-center md:text-start text-sm md:text-lg font-normal animate-text ">
   At Tech It, we are passionate about crafting exceptional digital experiences. Founded on the belief that technology can transform businesses, our team of skilled developers and designers work tirelessly to bring your ideas to life. Whether it&apos;s a dynamic website, a powerful e-commerce platform, or a custom web application, we blend creativity with technology to deliver solutions that not only meet your needs but also exceed your expectations. Our commitment to quality and innovation drives us to stay ahead of the curve, ensuring that we provide cutting-edge services that help your business thrive in a digital-first world.
 </p>
 
         
           <Link href={"/contactUs"}>
-            <button className="btn btn-success bg-[#37a001] border-[#37a001] py-3 px-4 text-[#fff] animate-text ">
+            <button className="btn btn-success bg-[#468420] border-[#468420] py-3 px-4 text-[#fff] animate-text mt-4">
               <h2> Contact</h2>
             </button>
           </Link>
@@ -50,14 +50,14 @@ const About = () => {
           />
         </div>
         <div className=" text-center md:text-start ">
-          <h2 className="text-green-500 text-xl md:text-4xl font-bold animate-text my-3 order-first md:order-last">
+          <h2 className="text-[#000000ba] text-xl md:text-4xl font-bold animate-text order-first md:order-last">
             Our mission
           </h2>
-          <p className="md:mt-10 word text-sm md:text-2xl font-medium 	line-height:1rem py-3 animate-text animate-title mt-2 order-first md:order-last">
+          <p className="md:mt-5 word text-sm md:text-lg font-normal 	line-height:1rem animate-text animate-title mt-2 order-first md:order-last">
           Our mission is to empower businesses by providing innovative, reliable, and scalable web solutions. We strive to create digital products that are not just functional but also user-friendly and visually compelling. Through our dedication to excellence and customer satisfaction, we aim to be a trusted partner in your digital transformation journey.
           </p>
           <Link href={"/contactUs"}>
-            <button className="btn btn-success bg-[#37a001] border-[#37a001] py-3 px-4 text-[#fff] animate-text ">
+            <button className="btn btn-success bg-[#468420] border-[#468420] py-3 px-4 text-[#fff] animate-text mt-4">
               <h2> Contact</h2>
             </button>
           </Link>
@@ -66,14 +66,14 @@ const About = () => {
       {/* our vission  */}
       <div className="md:flex flex-row justify-center items-center md:gap-10 md:my-24">
         <div className=" text-center md:text-start ">
-          <h2 className=" text-green-500 text-xl md:text-4xl font-bold animate-text">
+          <h2 className=" text-[#000000ba] text-xl md:text-4xl font-bold animate-text">
             Our Vission
           </h2>
-          <p className="md:mt-10 mt-2 text-center md:text-start text-sm md:text-2xl font-medium py-3 animate-text ">
+          <p className="md:mt-5 mt-2 text-center md:text-start text-sm md:text-lg font-normal animate-text">
           Our vision is to be a global leader in web development, recognized for our creativity, technical expertise, and ability to deliver impactful solutions. We envision a future where every business, regardless of size, can leverage the power of the web to reach new heights, connect with customers, and achieve lasting success. At Tech It, we are committed to building that future, one project at a time.
           </p>
           <Link href={"/contactUs"}>
-            <button className="btn btn-success bg-[#37a001] border-[#37a001] py-3 px-4 text-[#fff] animate-text ">
+            <button className="btn btn-success bg-[#468420] border-[#468420] py-3 px-4 text-[#fff] animate-text mt-4">
               <h2> Contact</h2>
             </button>
           </Link>

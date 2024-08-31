@@ -14,14 +14,15 @@ const TeamSection = () => {
       <div className=" mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold uppercase">
-            Our <span className="text-pink-600">Team</span>
+            Our <span className="text-[#468420]">Team</span>
           </h2>
           <h4 className="relative inline-block capitalize pb-5">
             Meet our awesome and expert team members
-            <span className="block absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-pink-600"></span>
+            <span className="block absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-[#468420]"></span>
           </h4>
         </div>
         <div className="flex flex-wrap -mx-4">
+          
           <div className="w-full md:w-1/3 px-4 mb-8">
             <div className="bg-white shadow-lg relative text-center p-6">
               <div className="relative overflow-hidden">
@@ -51,7 +52,7 @@ const TeamSection = () => {
 
                     <a
                       href="#"
-                      className="bg-pink-600 text-white p-2 rounded-full"
+                      className="bg-[#468420] text-white p-2 rounded-full"
                     >
                       <FaInstagram size={30} />
                     </a>
@@ -65,18 +66,20 @@ const TeamSection = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-pink-600 -mt-10">
+                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-[#424442] -mt-10">
                   <FaEnvelopeOpen size={30} />
                 </div>
                 <h4 className="text-xl font-semibold mt-4 capitalize">
                   Md:Shah Israil (ceo Founder)
                 </h4>
-                <span className="text-pink-600 font-semibold uppercase">
+                <span className="text-[#468420] font-semibold uppercase">
                   Full Stack Develope
                 </span>
               </div>
             </div>
           </div>
+
+
           <div className="w-full md:w-1/3 px-4 mb-8">
             <div className="bg-white shadow-lg relative text-center p-6">
               <div className="relative overflow-hidden">
@@ -106,7 +109,7 @@ const TeamSection = () => {
 
                     <a
                       href="#"
-                      className="bg-pink-600 text-white p-2 rounded-full"
+                      className="bg-[#468420] text-white p-2 rounded-full"
                     >
                       <FaInstagram size={30} />
                     </a>
@@ -120,13 +123,13 @@ const TeamSection = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-pink-600 -mt-10">
+                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-[#424442] -mt-10">
                   <FaEnvelopeOpen size={30} />
                 </div>
                 <h4 className="text-xl font-semibold mt-4 capitalize">
                   Md:Salim
                 </h4>
-                <span className="text-pink-600 font-semibold uppercase">
+                <span className="text-[#468420] font-semibold uppercase">
                   Full Stack Develope
                 </span>
               </div>
@@ -161,7 +164,7 @@ const TeamSection = () => {
 
                     <a
                       href="#"
-                      className="bg-pink-600 text-white p-2 rounded-full"
+                      className="bg-[#468420] text-white p-2 rounded-full"
                     >
                       <FaInstagram size={30} />
                     </a>
@@ -175,13 +178,13 @@ const TeamSection = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-pink-600 -mt-10">
+                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-[#424442] -mt-10">
                   <FaEnvelopeOpen size={30} />
                 </div>
                 <h4 className="text-xl font-semibold mt-4 capitalize">
                   Shuaif Islam Sobuj
                 </h4>
-                <span className="text-pink-600 font-semibold uppercase">
+                <span className="text-[#468420] font-semibold uppercase">
                   Mern Stack Developer
                 </span>
               </div>
@@ -216,7 +219,7 @@ const TeamSection = () => {
 
                     <a
                       href="#"
-                      className="bg-pink-600 text-white p-2 rounded-full"
+                      className="bg-[#468420] text-white p-2 rounded-full"
                     >
                       <FaInstagram size={30} />
                     </a>
@@ -230,13 +233,13 @@ const TeamSection = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-pink-600 -mt-10">
+                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-[#424442] -mt-10">
                   <FaEnvelopeOpen size={30} />
                 </div>
                 <h4 className="text-xl font-semibold mt-4 capitalize">
                   Md.Fazlul Haque
                 </h4>
-                <span className="text-pink-600 font-semibold uppercase">
+                <span className="text-[#468420] font-semibold uppercase">
                   Frontend Developer
                 </span>
               </div>
@@ -271,7 +274,7 @@ const TeamSection = () => {
 
                     <a
                       href="#"
-                      className="bg-pink-600 text-white p-2 rounded-full"
+                      className="bg-[#468420] text-white p-2 rounded-full"
                     >
                       <FaInstagram size={30} />
                     </a>
@@ -285,13 +288,13 @@ const TeamSection = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-pink-600 -mt-10">
+                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-[#424442] -mt-10">
                   <FaEnvelopeOpen size={30} />
                 </div>
                 <h4 className="text-xl font-semibold mt-4 capitalize">
                   Ibrahim Khalil
                 </h4>
-                <span className="text-pink-600 font-semibold uppercase">
+                <span className="text-[#468420] font-semibold uppercase">
                   Wordpress Developer
                 </span>
               </div>
@@ -326,7 +329,7 @@ const TeamSection = () => {
 
                     <a
                       href="#"
-                      className="bg-pink-600 text-white p-2 rounded-full"
+                      className="bg-[#468420] text-white p-2 rounded-full"
                     >
                       <FaInstagram size={30} />
                     </a>
@@ -340,13 +343,13 @@ const TeamSection = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-pink-600 -mt-10">
+                <div className="relative inline-block bg-white shadow-md p-3 rounded-full text-[#424442] -mt-10">
                   <FaEnvelopeOpen size={30} />
                 </div>
                 <h4 className="text-xl font-semibold mt-4 capitalize">
                   Daloar Hossain
                 </h4>
-                <span className="text-pink-600 font-semibold uppercase">
+                <span className="text-[#468420] font-semibold uppercase">
                   SEO Expert
                 </span>
               </div>
