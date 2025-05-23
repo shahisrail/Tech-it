@@ -4,6 +4,7 @@ import { NavBar } from "@/components/nav";
 import Whatsapp from "@/components/WhatsApp/whatsapp";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import TawkToChat from "@/components/WhatsApp/TawkToChat";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,8 @@ export default function RootLayout({ children }) {
         <main className="  bg-[#F4FAF3]">
           <div className="min-w-screen-xl mx-auto">{children}</div>
         </main>
-        <Whatsapp />
+        {/* <Whatsapp /> */}
+        <TawkToChat/>
         <Footer></Footer> 
       </body>
     </html>
