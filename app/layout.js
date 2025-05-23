@@ -1,10 +1,9 @@
 import Footer from "@/components/Fotter";
-
 import { NavBar } from "@/components/nav";
 import Whatsapp from "@/components/WhatsApp/whatsapp";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import TawkToChat from "@/components/WhatsApp/TawkToChat";
+import TawkToChat from "@/components/WhatsApp/TawkToChat"; // ✅ ঠিক জায়গায় import
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,13 +17,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="cupcake">
       <body className={inter.className}>
-        <NavBar></NavBar>
-        <main className="  bg-[#F4FAF3]">
+        <NavBar />
+        <main className="bg-[#F4FAF3]">
           <div className="min-w-screen-xl mx-auto">{children}</div>
         </main>
         {/* <Whatsapp /> */}
-        <TawkToChat/>
-        <Footer></Footer> 
+        <TawkToChat /> {/* ✅ Works perfectly now */}
+        <Footer />
       </body>
     </html>
   );
